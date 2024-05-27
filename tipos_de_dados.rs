@@ -5,7 +5,7 @@ fn main() {
        - DECIMAL (FLOAT) => f64, f32
        - BOOLEANO (BOOLEAN) => bool
        - CARACTERE (CHAR) -> CARACTERIZADO POR ASPAS SIMPLES => char
-       - STRING -> CARACTERIZADO POR ASPAS DUPLAS => &str
+       - STRING -> CARACTERIZADO POR ASPAS DUPLAS => String, &str
     */
 
     let numero = 1_532; // Se não declarado o tipo de dado, o compilador assume que, 
