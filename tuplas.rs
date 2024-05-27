@@ -1,0 +1,13 @@
+/* TUPLAS SÃO UM CONJUNTO DE DADOS RELACIONAIS QUE PODEM TER VÁRIOS TIPOS DE DADOS ARMAZENADOS.
+   ELAS SÃO DENOTADAS COM PARÊNTESIS (i32, f64, &str) 
+   
+   A INDEXAÇÃO DE UMA TUPLA SEMPRE COMEÇA COM 0.
+   SEMPRE QUE FOR PRINTAR UMA TUPLA NA TELA, É NECESSÁRIO INDICAR SEU ÍNDICE. 
+*/
+
+fn main() {
+
+    let tupla :(i32, f64, &str) = (32, 3.14, "Olá");
+
+    println!(" {} - {} - {} ", tupla.0, tupla.1, tupla.2);
+}
