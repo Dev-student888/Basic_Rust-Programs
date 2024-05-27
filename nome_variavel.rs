@@ -8,6 +8,10 @@ fn main() {
        POR PADRÃO, AS VARIÁVEIS NA LINGUAGEM RUST SÃO IMUTÁVEIS.
        PARA TORNAR UMA VARIÁVEL MUTÁVEL, PRECISAMOS UTILIZAR 
        A PALAVRA RESERVADA `mut` , sem as aspas.
+
+       E PARA CRIAR UMA CONSTANTE, BASTA USAR 
+       A PALAVRA RESERVADA `const` SEM AS ASPAS, 
+       SEGUIDO DO NOME DA CONSTANTE.
     */
 
     let msg = "Olá, Mundo!";
