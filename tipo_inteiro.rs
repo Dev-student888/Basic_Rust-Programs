@@ -25,4 +25,6 @@ fn main() {
        usize = depende da arquitetura do sistema, variando entre x32 bits e x64 bits
     */
 
+    let numero :u32 = 5;
+    println!("Número = {} ", numero);
 }
