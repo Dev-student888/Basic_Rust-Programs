@@ -12,5 +12,7 @@ fn main() {
     // se o dado for inteiro, ele será de 32 bits, ou seja, i32 ou u32.
     let decimal = 5_265.35;
 
-    println!("numero = {} \ndecimal = {} ", numero, decimal);
+    let nome: &str = "Claudio";
+
+    println!("numero = {} \ndecimal = {} \nnome = {} ", numero, decimal, nome);
 }
