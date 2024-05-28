@@ -14,7 +14,7 @@ fn main(){
         modelo: String::from("Honda"),
         ano: 1989,
         cor: String::from("Vermelha"),
-        valor: 3200.00,
+        valor: 3200.00
     };
 
     println!("Minha moto é uma {} {} {} que custou R${:.2} ", minha_moto.modelo, minha_moto.ano, minha_moto.cor, minha_moto.valor);
@@ -24,5 +24,5 @@ struct Moto{
     modelo: String,
     ano: u32,
     cor: String, 
-    valor: f64,
+    valor: f64
 }
