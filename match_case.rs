@@ -4,7 +4,7 @@
             "opção01" => RESPOSTA PARA A OPÇÃO 1; EX: println!() DEPOIS VEM A VÍRGULA `,` SEM ASPAS
             "opção02" => RESPOSTA PARA A OPÇÃO 2,
             "..." => PODE COLOCAR QUANTAS OPÇÕES QUISER,
-            _ => RESPOSTA PARA A OPÇÃO `default` DO `match` CASE | _ É COMO SE FOSSE O default DO `match` CASE
+            _ => RESPOSTA PARA A OPÇÃO `default` DO `match` CASE. _ É COMO SE FOSSE O default DO `match` CASE
         } 
 */
 
