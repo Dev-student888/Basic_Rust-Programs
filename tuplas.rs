@@ -7,7 +7,7 @@
 
 fn main() {
 
-    let tupla :(i32, f64, &str) = (32, 3.14, "Olá");
+    let tupla: (i32, f64, &str) = (32, 3.14, "Olá");
 
     println!(" {} - {} - {} ", tupla.0, tupla.1, tupla.2);
 }
