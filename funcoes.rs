@@ -5,7 +5,7 @@
    APÓS O SINAL, DEVEMOS COLOCAR O TIPO DE DADO REFERENTE AO RETORNO DA FUNÇÃO.
    DEPOIS ABRIMOS AS CHAVES `{}` E DENTRO DELAS DEVEMOS COLOCAR O RETORNO. 
    EX:  fn dobro(x:i32) -> i32{
-            return 2*f;
+            return 2*x;
         }
 */
 
